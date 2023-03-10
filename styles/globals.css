@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 768px) {
+    .coinContainer {
+      width: 170px !important;
+      padding: 20px 5px !important;
+      margin: 15px 5px !important;
+    }
+    .pCoin {
+      width: 150px !important;
+    }
+  }
+  .coinContainer {
+    width: 200px;
+    margin: 15px 10px;
+    padding: 20px 15px;
+    /* box-shadow: 0px 2px 6px 0px rgba(66, 66, 66, 0.9); */
+    transition: all 0.2s linear;
+    vertical-align: middle;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #222831, #1e1e1e);
+    /* box-shadow: 6px 6px 12px #222831, -6px -6px 12px #383838; */
+  }
+  .coinContainer:hover {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #222831, #1e1e1e);
+    /* box-shadow: 6px 6px 12px #222831, -6px -6px 12px #383838; */
+    transition: all 0.2s linear;
+  }
+  .imageCoin {
+    width: 70px;
+    height: 70px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .pCoin {
+    color: #222831;
+    display: flex;
+    justify-content: center;
+    background: #eeeeee;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  .pCoin span{
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .iconCoin {
+    width: 23px;
+    margin-right: 5px;
+    color: #ffffff;
+  }
